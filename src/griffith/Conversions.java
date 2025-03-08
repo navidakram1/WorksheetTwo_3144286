@@ -3,7 +3,7 @@ package griffith;
 public class Conversions {
     // Convert Euro to Dollar
     public double euroToDollar(double euro) {
-        return 0.0; // Stub
+        return euro * 1.18; // Assuming 1 Euro = 1.18 Dollars
     }
 
     // Convert Dollar to Euro
