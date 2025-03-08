@@ -22,7 +22,7 @@ public class Conversions {
 
     // Convert Integer to String
     public String integerToString(int val) {
-        return ""; // Stub
+        return String.valueOf(val);
     }
 
     // Switch case of a string (uppercase to lowercase and vice versa)
