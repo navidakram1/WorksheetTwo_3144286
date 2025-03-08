@@ -8,7 +8,7 @@ public class Conversions {
 
     // Convert Dollar to Euro
     public double dollarToEuro(double dollar) {
-        return 0.0; // Stub
+        return dollar / 1.18; // Assuming 1 Euro = 1.18 Dollars
     }
 
     // Convert String to Integer
