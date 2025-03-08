@@ -13,7 +13,11 @@ public class Conversions {
 
     // Convert String to Integer
     public int stringToInteger(String val) {
-        return 0; // Stub
+        try {
+            return Integer.parseInt(val);
+        } catch (NumberFormatException e) {
+            return 0; // Return 0 for invalid input
+        }
     }
 
     // Convert Integer to String
